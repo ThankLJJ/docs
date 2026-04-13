@@ -1,13 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "数据通",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
   "navigation": {
     "global": {
       "anchors": [
@@ -25,7 +24,7 @@
     },
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "快速开始",
         "groups": [
           {
             "group": "开始",
@@ -80,6 +79,17 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "更新日志",
+        "groups": [
+          {
+            "group": "V8R6C30",
+            "pages": [
+              "v8-r6-c30-spc-001"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -118,5 +128,7 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
-  }
+  },
+  "description": "让数据快速使用",
+  "favicon": "/images/数据通.png"
 }

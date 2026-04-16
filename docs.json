@@ -3,99 +3,77 @@
   "theme": "mint",
   "name": "数据通",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
+    "primary": "#1548a3",
+    "light": "#062cc9",
     "dark": "#15803D"
   },
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "icon": "book-open-cover",
-          "href": "https://mintlify.com/docs"
-        },
-        {
-          "anchor": "Blog",
-          "icon": "newspaper",
-          "href": "https://mintlify.com/blog"
-        }
-      ]
-    },
-    "tabs": [
+    "versions": [
       {
-        "tab": "快速开始",
-        "groups": [
+        "version": "v",
+        "tabs": [
           {
-            "group": "开始",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
+            "tab": "快速开始",
+            "groups": [
+              {
+                "group": "开始",
+                "pages": [
+                  "index",
+                  "quickstart",
+                  "development"
+                ]
+              }
             ]
           },
           {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+            "tab": "智能问数",
+            "groups": [
+              {
+                "group": "使用流程",
+                "pages": [
+                  "file",
+                  "file-2"
+                ]
+              },
+              {
+                "group": "常见问题",
+                "pages": [
+                  "file-1"
+                ]
+              }
             ]
           },
           {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+            "tab": "主动数据治理",
+            "groups": [
+              {
+                "group": "使用流程",
+                "pages": [
+                  "file-3",
+                  "file-4",
+                  "file-5"
+                ]
+              },
+              {
+                "group": "常见问题",
+                "pages": []
+              }
             ]
           },
           {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "更新日志",
-        "groups": [
-          {
-            "group": "V8R6C30",
-            "pages": [
-              "v8-r6-c30-spc-001"
+            "tab": "更新日志",
+            "groups": [
+              {
+                "group": "V8R6C30",
+                "pages": [
+                  "v8-r6-c30-spc-001"
+                ]
+              }
             ]
           }
         ]
       }
     ]
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
   },
   "navbar": {
     "links": [
@@ -122,13 +100,7 @@
      "vscode"
    ]
   },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  },
   "description": "让数据快速使用",
-  "favicon": "/images/数据通.png"
+  "favicon": "/images/数据通.png",
+  "logo": "/images/数据通.png"
 }
